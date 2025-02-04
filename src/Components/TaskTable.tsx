@@ -12,11 +12,11 @@ interface TaskTableProps {
 const TaskTable: React.FC<TaskTableProps> = ({ tasks, toggleTaskCompletion, deleteTask }) => {
   const [paginationModel, setPaginationModel] = useState({ pageSize: 5, page: 0 });
 
-  // Create rows with serial numbers
+ 
   const rows = tasks.map((task, index) => ({
     ...task,
-    id: task.id, // Ensure each row has a unique id
-    serial: index + 1, // Calculate serial number
+    id: task.id, 
+    serial: index + 1, 
   }));
 
   const columns: GridColDef[] = [
