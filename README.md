@@ -15,3 +15,5 @@ This is a Todo App built using React and TypeScript. It allows users to manage a
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/your-repository-name.git
+
+   Note : This task is build using Vite with React. So, to run the code kindly type "npm run dev" on the console.
